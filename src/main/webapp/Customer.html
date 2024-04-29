@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Product Store Pvt. Ltd - Customer Login</title>
+     <link rel="icon" href="https://www.kindpng.com/picc/m/714-7147296_digicollect-cart-icon-png-download-jet-com-walmart.png" type="image/png">
+    <style>
+        body {
+			background-image: url("https://boldist.co/wp-content/uploads/2021/07/Laughing-Samurai-Instagram-Checkout-Risks-and-Rewards-for-Ecommerce-Businesses.jpg");
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+             background-size: cover;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+           background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 5px;
+             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        input[type="text"],
+        input[type="password"] {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            font-weight: bold;
+            background-color: rgb(140, 0, 0);
+            color: rgb(255, 255, 255);
+            border: 1px solid rgb(255, 255, 255);
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        input[type="submit"]:hover {
+             background-color: rgb(170, 0, 0);
+            color: #fff;
+             border: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Customer Login</h1>
+        <form action="Customer" method="post">
+            <label for="uname">UserName:</label>
+            <input type="text" id="uname" name="uname" required>
+            <label for="pword">Password:</label>
+            <input type="password" id="pword" name="pword" required>
+            <input type="submit" value="Login">
+        </form>
+    </div>
+</body>
+</html>
