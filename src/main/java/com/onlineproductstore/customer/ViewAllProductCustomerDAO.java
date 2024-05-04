@@ -1,7 +1,8 @@
 package com.onlineproductstore.customer;
 import java.sql.*;
 import java.util.ArrayList;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 public class ViewAllProductCustomerDAO {
 	ArrayList<ProductBean> al = new ArrayList<>();
 	public ArrayList<ProductBean> retrive(){

@@ -1,8 +1,9 @@
 package com.onlineproductstore.customer;
 import java.sql.*;
 import java.util.ArrayList;
-import com.onlineproductstoreadmin.DBConnection;
-import com.onlineproductstoreadmin.ProductBean;
+
+import com.onlineproductstore.admin.DBConnection;
+import com.onlineproductstore.admin.ProductBean;
 public class ViewCartDAO {
 	ArrayList<ProductBean> al = new ArrayList<>();
 	public ArrayList<ProductBean> view(){

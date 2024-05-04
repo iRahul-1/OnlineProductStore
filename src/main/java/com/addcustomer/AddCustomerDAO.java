@@ -1,6 +1,7 @@
 package com.addcustomer;
 import java.sql.*;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 public class AddCustomerDAO {
 	public int k = 0;
 	public int Add(AdminBean ab) {

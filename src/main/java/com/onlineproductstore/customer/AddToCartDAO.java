@@ -1,7 +1,7 @@
 package com.onlineproductstore.customer;
 import java.sql.*;
 
-import com.onlineproductstoreadmin.*;
+import com.onlineproductstore.admin.*;
 public class AddToCartDAO {
 	public int k = 0;
 	public int Add(ProductBean pb,int qty) {

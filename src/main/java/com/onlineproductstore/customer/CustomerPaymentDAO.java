@@ -1,6 +1,7 @@
 package com.onlineproductstore.customer;
 import java.sql.*;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 public class CustomerPaymentDAO {
 	public int k = 0;
 	public int Payment(int code,int qty){

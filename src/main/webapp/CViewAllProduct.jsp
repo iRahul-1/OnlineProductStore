@@ -1,5 +1,5 @@
 <%@page import="java.util.Iterator"%>
-<%@page import="com.onlineproductstoreadmin.ProductBean"%>
+<%@page import="com.onlineproductstore.admin.ProductBean"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="com.onlineproductstore.customer.CustomerBean"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"

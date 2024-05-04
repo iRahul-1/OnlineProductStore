@@ -6,7 +6,7 @@ import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import com.onlineproductstoreadmin.ProductBean;
+import com.onlineproductstore.admin.ProductBean;
 @SuppressWarnings("serial")
 @WebServlet("/payment")
 public class CustomerPaymentServlet extends HttpServlet{

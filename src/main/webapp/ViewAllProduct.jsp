@@ -1,7 +1,7 @@
 <%@page import="java.util.Iterator"%>
-<%@page import="com.onlineproductstoreadmin.ProductBean"%>
+<%@page import="com.onlineproductstore.admin.ProductBean"%>
 <%@page import="java.util.ArrayList"%>
-<%@page import="com.onlineproductstoreadmin.AdminBean"%>
+<%@page import="com.onlineproductstore.admin.AdminBean"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>

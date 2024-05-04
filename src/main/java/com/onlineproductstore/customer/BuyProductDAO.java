@@ -3,7 +3,7 @@ package com.onlineproductstore.customer;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 
-import com.onlineproductstoreadmin.DBConnection;
+import com.onlineproductstore.admin.DBConnection;
 
 public class BuyProductDAO {
 	public int k = 0;

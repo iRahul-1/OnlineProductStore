@@ -1,7 +1,9 @@
 package com.onlineproductstore.customer;
 import java.io.IOException;
 import java.util.ArrayList;
-import com.onlineproductstoreadmin.ProductBean;
+
+import com.onlineproductstore.admin.ProductBean;
+
 import jakarta.servlet.*;
 import jakarta.servlet.annotation.*;
 import jakarta.servlet.http.*;

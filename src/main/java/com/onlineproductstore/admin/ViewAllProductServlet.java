@@ -1,4 +1,4 @@
-package com.onlineproductstoreadmin;
+package com.onlineproductstore.admin;
 import java.io.*;
 import java.util.ArrayList;
 

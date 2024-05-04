@@ -1,4 +1,4 @@
-package com.onlineproductstoreadmin;
+package com.onlineproductstore.admin;
 import java.sql.*;
 public class DeleteProductDAO {
 	public int k = 0;

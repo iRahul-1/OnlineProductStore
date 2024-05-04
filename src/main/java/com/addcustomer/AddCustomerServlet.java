@@ -3,7 +3,8 @@ import jakarta.servlet.*;
 import jakarta.servlet.annotation.*;
 import jakarta.servlet.http.*;
 import java.io.*;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 @SuppressWarnings("serial")
 @WebServlet("/AddCustomer")
 public class AddCustomerServlet extends HttpServlet{
@@ -17,7 +18,7 @@ public class AddCustomerServlet extends HttpServlet{
 		ab.setAddr(req.getParameter("address"));
 		ab.setmId(req.getParameter("email"));
 		ab.setPhNo(Long.parseLong(req.getParameter("phone")));
-		int k = new AddAdminDAO().Add(ab);
+		int k = new AddCustomerDAO().Add(ab);
 		if(k>0) {
 			req.setAttribute("msg", "User Registered Successfully...<br>");
 			req.getRequestDispatcher("CustomerAdded.jsp").forward(req, res);

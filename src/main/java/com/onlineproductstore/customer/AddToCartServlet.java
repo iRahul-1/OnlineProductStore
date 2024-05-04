@@ -5,7 +5,8 @@ import jakarta.servlet.http.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 @SuppressWarnings("serial")
 @WebServlet("/Ats")
 public class AddToCartServlet extends HttpServlet{

@@ -2,8 +2,8 @@ package com.onlineproductstore.customer;
 import java.sql.*;
 import java.util.ArrayList;
 
-import com.onlineproductstoreadmin.DBConnection;
-import com.onlineproductstoreadmin.ProductBean;
+import com.onlineproductstore.admin.DBConnection;
+import com.onlineproductstore.admin.ProductBean;
 public class AddQuantityDAO {
 	ArrayList<ProductBean> al = new ArrayList<ProductBean>();
 	public ArrayList<ProductBean> getData(int code) {

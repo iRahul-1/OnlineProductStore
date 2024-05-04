@@ -3,7 +3,8 @@ import jakarta.servlet.*;
 import jakarta.servlet.annotation.*;
 import jakarta.servlet.http.*;
 import java.io.*;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 @SuppressWarnings("serial")
 @WebServlet("/AddAdmin")
 public class AddAdminServlet extends HttpServlet{

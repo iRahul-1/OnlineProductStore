@@ -1,4 +1,4 @@
-package com.onlineproductstoreadmin;
+package com.onlineproductstore.admin;
 import java.sql.*;
 public class AloginDAO {
 public AdminBean ab = null;

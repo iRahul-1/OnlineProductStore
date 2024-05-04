@@ -1,6 +1,7 @@
 package com.onlineproductstore.customer;
 import java.sql.*;
-import com.onlineproductstoreadmin.*;
+
+import com.onlineproductstore.admin.*;
 public class CustomerLoginDAO {
 	CustomerBean cb = null;
     public CustomerBean cLogin(String name,String pass) {

@@ -1,4 +1,4 @@
-package com.onlineproductstoreadmin;
+package com.onlineproductstore.admin;
 import java.sql.*;
 import java.util.*;
 public class ViewAllProductDAO {

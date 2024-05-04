@@ -1,4 +1,4 @@
-package com.onlineproductstoreadmin;
+package com.onlineproductstore.admin;
 import java.io.*;
 @SuppressWarnings("serial")
 public class AdminBean implements Serializable{

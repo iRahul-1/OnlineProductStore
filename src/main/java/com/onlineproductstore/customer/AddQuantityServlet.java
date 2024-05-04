@@ -5,7 +5,7 @@ import jakarta.servlet.http.*;
 import java.io.*;
 import java.util.ArrayList;
 
-import com.onlineproductstoreadmin.ProductBean;
+import com.onlineproductstore.admin.ProductBean;
 @SuppressWarnings("serial")
 @WebServlet("/Add")
 public class AddQuantityServlet extends HttpServlet{
